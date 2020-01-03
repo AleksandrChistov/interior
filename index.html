@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Interior — online store</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,14 +16,14 @@
             <img src="img/logo.svg" alt="Logo" class="header__logo">
           </a>
           <ul class="menu">
-            <a href="" class="menu__link"><li class="menu__item">HOME</li></a>
-            <a href="" class="menu__link"><li class="menu__item">PRODUCTS</li></a>
-            <a href="" class="menu__link"><li class="menu__item">HISTORY</li></a>
-            <a href="" class="menu__link"><li class="menu__item">SHOWROOM</li></a>
-            <a href="" class="menu__link"><li class="menu__item">CONTACT</li></a>
-            <a href="" class="menu__link">
-              <li class="menu__item"><img src="img/search.svg" alt="search" class="menu__search"></li>
-            </a>            
+            <li class="menu__item"><a href="#" class="menu__link menu__link_active">HOME</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">PRODUCTS</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">HISTORY</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">SHOWROOM</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">CONTACT</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">
+              <img src="img/search.svg" alt="search" class="menu__search">
+            </a></li>  
           </ul>
        </div>
 
@@ -30,14 +31,20 @@
         <p class="slider-content__text">TRENDING</p>
         <h1 class="slider-content__title">Fishnet Chair</h1>
         <p class="slider-content__description">Seat and back with upholstery made of cold cure foam. 
-          Steel frame, available in matt powder-coated black or highly polished chrome.</p>
-        <button class="button">Order Us</button>
+          Steel frame, available in matt powder-coated black</p>
+        <a class="button">Order Us
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" class="button__arrow">
+            <g><g><path fill="#6c6c6c" d="M2.172 12.031l6-6-6-6-1.43 1.407L5.336 6.03.742 10.625z"/>
+            <path fill="#212121" d="M2.172 12.031l6-6-6-6-1.43 1.407L5.336 6.03.742 10.625z"/></g></g>
+          </svg>
+        </a>
        </div>
 
        <ul class="pagination">
-         <li class="pagination__item"></li>
-         <li class="pagination__item"></li>
-         <li class="pagination__item"></li>
+        <li class="pagination__item">
+          <a href="#" class="pagination__link"></a></li><li class="pagination__item">
+          <a href="#" class="pagination__link pagination__link_active"></a></li><li class="pagination__item">
+          <a href="#" class="pagination__link"></a></li>
        </ul>
      </div>
    </div>

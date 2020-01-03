@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.slider {
+  position: relative;
+  height: 800px;
+  padding: 63px 167px 19px 98px;
+  background: url(Img/slider-img.jpg) no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 283px;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #8c8c8c;
+  padding: 10px;
+  letter-spacing: 1.4px;
+}
+
+.menu__link:hover {
+  color: #212121;
+}
+
+.menu__link_active {
+  color: #212121;
+  font-weight: 700;
+  border-bottom: 3px solid #212121;
+}
+
+.slider-content__text {
+  font-size: 18px;
+  color: #43a047;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  margin-bottom: 10px;
+}
+
+.slider-content__title {
+  font-size: 62px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+.slider-content__description {
+  color: #6c6c6c;
+  max-width: 485px;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+
+.button {
+  width: 212px;
+  height: 45px;
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+  border-radius: 23px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #212121;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button__arrow {
+  padding-left: 5px;
+  box-sizing: content-box;
+}
+
+.pagination {
+  position: absolute;
+  bottom: 19px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  list-style-type: none;
+}
+
+.pagination__item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.pagination__link {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #c7c7c7;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.pagination__link:hover {
+  background-color: #212121; 
+}
+
+.pagination__link_active {
+  width: 40px;
+  height: 40px;
+  background-color: #212121;
+  margin-bottom: 0;
+}
