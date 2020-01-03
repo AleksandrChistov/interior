@@ -303,3 +303,33 @@ body {
 .slider-content__text_red {
   color: #e53935;
 }
+
+.exclusive-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 98px;
+}
+
+.exclusive-block__description {
+  width: 350px;
+}
+
+.exclusive_bg-img {
+  width: 570px;
+  height: 570px;
+  padding: 186px 31px 0;
+  background: url('img/exclusive/product-1-lg.jpg') no-repeat;
+}
+
+.exclusive-images {
+  width: 570px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.exclusive-images__img {
+  width: 270px;
+  height: 270px;
+}
