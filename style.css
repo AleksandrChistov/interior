@@ -229,3 +229,41 @@ body {
 .featured-product__description {
   color: #6c6c6c;
 }
+
+.exclusive-two {
+  display: flex;
+}
+
+.exclusive {
+  width: 50%;
+  height: 683px;
+  padding: 228px 0 0 50px;
+  background: url('img/exclusive-two/promo-img1.jpg');
+}
+
+.exclusive-2 {
+  background: url('img/exclusive-two/promo-img.jpg');
+}
+
+.exclusive__text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1e88e5;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  margin-bottom: 15px;
+}
+
+.exclusive__title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+.exclusive__description {
+  color: #6c6c6c;
+  line-height: 24px;
+  width: 392px;
+  margin-bottom: 30px;
+}
