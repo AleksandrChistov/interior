@@ -267,3 +267,30 @@ body {
   width: 392px;
   margin-bottom: 30px;
 }
+
+.trending {
+  padding: 119px 98px 120px;
+}
+
+.trending-links {
+  margin-bottom: 64px;
+}
+
+.trending-links__title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #212121;
+}
+
+.trending-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 770px;
+}
+
+.trending__img {
+  width: 370px;
+  height: 370px;
+}
