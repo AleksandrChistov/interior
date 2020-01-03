@@ -333,3 +333,40 @@ body {
   width: 270px;
   height: 270px;
 }
+
+.mobail-app {
+  height: 516px;
+  padding: 125px 98px 120px;
+  background: url('img/back-img.jpg') no-repeat;
+}
+
+.mobail-app__text {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  color: #6c6c6c;
+  margin-bottom: 10px;
+}
+
+.mobail-app__title {
+  width: 480px;
+  font-size: 62px;
+  font-weight: 300;
+  color: #212121;
+  text-transform: uppercase;
+  line-height: 72px;
+  margin-bottom: 15px;
+}
+
+.mobail-app__description {
+  font-size: 22px;
+  color: #6c6c6c;
+  margin-bottom: 30px;
+}
+
+.mobail-app-images {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
