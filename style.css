@@ -19,7 +19,7 @@ body {
   position: relative;
   height: 800px;
   padding: 63px 167px 19px 98px;
-  background: url(Img/slider-img.jpg) no-repeat;
+  background: url('img/slider-img.jpg') no-repeat;
 }
 
 .header {
@@ -61,7 +61,7 @@ body {
 .slider-content__title {
   font-size: 62px;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 300;
   color: #212121;
   margin-bottom: 20px;
 }
@@ -293,4 +293,13 @@ body {
 .trending__img {
   width: 370px;
   height: 370px;
+}
+
+.slider-hot-deal {
+  background: url('img/slider-hot-deal.jpg') no-repeat;
+  padding-top: 287px; 
+}
+
+.slider-content__text_red {
+  color: #e53935;
 }
