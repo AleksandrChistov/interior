@@ -672,7 +672,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   color: #6c6c6c;
-  letter-spacing: 1.8px;
+  letter-spacing: 1.4px;
 }
 
 .nav-product-link:hover {
@@ -688,7 +688,7 @@ body {
 }
 
 .product-details {
-  padding: 72px 132px 131px 98px;
+  padding: 72px 132px 115px 98px;
   display: flex;
 }
 
@@ -696,6 +696,7 @@ body {
   list-style-type: none;
   text-align: center;
   margin-top: 10px;
+  margin-right: 40px;
 }
 
 .product-details-control__item {
@@ -725,7 +726,7 @@ body {
 }
 
 .product-details-info {
-  padding: 45px 0 0 56px;
+  padding: 40px 0 0 62px;
 }
 
 .product-details__title {
@@ -734,6 +735,7 @@ body {
   color: #212121;
   text-align: center;
   margin-bottom: 10px;
+  letter-spacing: -1px;
 }
 
 .product-details__text {
@@ -743,6 +745,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1.8px;
   text-align: center;
+  margin-bottom: 12px;
 }
 
 .product-details__price {
@@ -757,7 +760,7 @@ body {
 .product-details__price:before {
   content: '$ ';
   font-size: 36px;
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 .product-details__price:after {
@@ -770,7 +773,7 @@ body {
   height: 71px;
   font-size: 22px;
   line-height: 71px;
-  letter-spacing: 4.4px;
+  letter-spacing: 3.5px;
   border-radius: 35px;
   background-color: #f44336;
   color: #fff;
@@ -784,12 +787,16 @@ body {
   margin-left: 25px;
 }
 
-.product-details__description {
+.product-details-description__text {
   font-family: Gotham, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
-  letter-spacing: 0.4px;
-  white-space: pre-wrap;
+  letter-spacing: 0.3px;
   color: #212121;
+  margin-bottom: 12px;
+}
+
+.product-details-description__text_padding_left {
+  padding-left: 5px;
 }
