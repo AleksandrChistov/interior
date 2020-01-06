@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Interior — products</title>
+  <title>Interior — products details</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <div class="container">
-    <div class="header-wrap">
-      <div class="header header_margin_bottom_m">
+    <div class="header-wrap-product">
+      <div class="header header_margin-bottom_none">
         <a href="/" class="header__logo-link">
           <img src="../img/logo.svg" alt="Logo" class="header__logo">
         </a>
@@ -26,105 +26,83 @@
           </a></li>  
         </ul>
       </div>
-
-      <div class="header-wrap__title">Our Products Range</div>
     </div>
+
+    <ul class="nav-product">
+      <li class="nav-product__item nav-product__item_active">
+        <a href="#" class="nav-product-link">ALL</a>
+      </li><li class="nav-product__item">
+        <a href="#" class="nav-product-link">HOME</a>
+      </li><li class="nav-product__item">
+        <a href="#" class="nav-product-link">OFFICE</a>
+      </li><li class="nav-product__item">
+        <a href="#" class="nav-product-link">FURNITURE</a>
+      </li><li class="nav-product__item">
+        <a href="#" class="nav-product-link">MODERN</a>
+      </li><li class="nav-product__item">
+        <a href="#" class="nav-product-link">CLASSIC</a>
+      </li>        
+    </ul>
   </div>
 
   <div class="container">
-    <div class="our-products">
-      <ul class="our-products-list">
-        <li class="our-products-list__item">
-          <a href="#" class="our-products-list__link our-products-list__link_active">ALL</a>
+    <div class="product-details">
+      <div class="product-details-images">
+        <img src="../img/product-details/slider1.jpg" alt="Image large product" class="product-details__img">
+        <ul class="product-details-control">
+          <li class="product-details-control__item">
+            <a href="#" class="product-details-control__link product-details-control__link_bg1"></a>
+          </li><li class="product-details-control__item">
+            <a href="#" class="product-details-control__link product-details-control__link_bg2"></a>
+          </li><li class="product-details-control__item">
+            <a href="#" class="product-details-control__link product-details-control__link_bg3"></a>
           </li>
-        <li class="our-products-list__item">
-          <a href="#" class="our-products-list__link">HOME</a>
-          </li><li class="our-products-list__item">
-            <a href="#" class="our-products-list__link">OFFICE</a>
-          </li><li class="our-products-list__item">
-            <a href="#" class="our-products-list__link">FURNITURE</a>
-          </li><li class="our-products-list__item">
-            <a href="#" class="our-products-list__link">MODERN</a>
-          </li><li class="our-products-list__item">
-            <a href="#" class="our-products-list__link">CLASSIC</a>
-          </li>
-          <hr class="our-products__line">
-      </ul>
-      <div class="trending-images">
-        <a href="../product-details" class="trending-images__link">
-        <img src="../img/trending/product-1.jpg" alt="trending-product-1" class="trending__img">
-        </a>
-        <a href="../product-details" class="trending-images__link">
-        <img src="../img/trending/product-2.jpg" alt="trending-product-2" class="trending__img">
-        </a>
-        <a href="../product-details" class="trending-images__link">
-        <img src="../img/trending/product-3.jpg" alt="trending-product-3" class="trending__img">
-        </a>
-        <a href="../product-details" class="trending-images__link">
-        <img src="../img/trending/product-4.jpg" alt="trending-product-4" class="trending__img">
-        </a>
-        <a href="../product-details" class="trending-images__link">
-        <img src="../img/trending/product-5.jpg" alt="trending-product-5" class="trending__img">
-        </a>
-        <a href="../product-details" class="trending-images__link">
-        <img src="../img/trending/product-6.jpg" alt="trending-product-6" class="trending__img">
-        </a>
-        <a href="../product-details" class="trending-images__link">
-        <img src="../img/trending/product-1.jpg" alt="trending-product-1" class="trending__img">
-        </a>
-        <a href="../product-details" class="trending-images__link">
-        <img src="../img/trending/product-2.jpg" alt="trending-product-2" class="trending__img">
-        </a>
-        <a href="../product-details" class="trending-images__link">
-        <img src="../img/trending/product-3.jpg" alt="trending-product-3" class="trending__img">
-        </a>
-        <a href="../product-details" class="trending-images__link">
-        <img src="../img/trending/product-4.jpg" alt="trending-product-4" class="trending__img">
-        </a>
-        <a href="../product-details" class="trending-images__link">
-        <img src="../img/trending/product-5.jpg" alt="trending-product-5" class="trending__img">
-        </a>
-        <a href="../product-details" class="trending-images__link">
-        <img src="../img/trending/product-6.jpg" alt="trending-product-6" class="trending__img">
-        </a>
+        </ul>
       </div>
+      <div class="product-details-info">
+        <h1 class="product-details__title">Fishnet Chair</h1>
+        <p class="product-details__text">Hot Deal</p>
+        <p class="product-details__price">36.7</p>
+        <a class="button button-product-details">Order Us
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 15 24" class="button-product-details__arrow">
+            <g><g><path fill="#fff" d="M2.868 24l12.1-12-12.1-12-2.884 2.812L9.25 12l-9.265 9.187z"/></g></g>
+          </svg>
+        </a>
+        <p class="product-details__description">The majesty of Mountains - Ugmonk style.
 
-      <div class="loading">
-        <button class="loading__btn" aria-label="loading"></button>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore 
+          
+ et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+ut aliquip ex ea commodo consequat. 
+          
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+        </p>
       </div>
     </div>
   </div>
 
   <div class="container">
-    <div class="exclusive-two">
-      <div class="exclusive">
-       <p class="exclusive__text">exclusive</p>
-       <p class="exclusive__title">Fishnet Chair</p>
-       <p class="exclusive__description">
-         Seat and back with upholstery made of cold cure foam. 
-         Steel frame, available in matt
-       </p>
-       <a class="button">Order Us
+    <div class="trending">
+     <div class="featured-links trending-links">
+       <p class="trending-links__title">Related Products</p>
+       <a href="#" class="explore-all">explore all
          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" class="button__arrow">
            <g><g><path fill="#6c6c6c" d="M2.172 12.031l6-6-6-6-1.43 1.407L5.336 6.03.742 10.625z"/>
            <path fill="#212121" d="M2.172 12.031l6-6-6-6-1.43 1.407L5.336 6.03.742 10.625z"/></g></g>
          </svg>
        </a>
-      </div>
-      <div class="exclusive exclusive-2">
-       <p class="exclusive__text">exclusive</p>
-       <p class="exclusive__title">Fishnet Chair</p>
-       <p class="exclusive__description">
-         Seat and back with upholstery made of cold cure foam. 
-         Steel frame, available in matt
-       </p>
-       <a class="button">Order Us
-         <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" class="button__arrow">
-           <g><g><path fill="#6c6c6c" d="M2.172 12.031l6-6-6-6-1.43 1.407L5.336 6.03.742 10.625z"/>
-           <path fill="#212121" d="M2.172 12.031l6-6-6-6-1.43 1.407L5.336 6.03.742 10.625z"/></g></g>
-         </svg>
+     </div>
+     <div class="trending-images">
+       <a href="product-details" class="trending-images__link">
+         <img src="../img/trending/product-1.jpg" alt="trending-product-1" class="trending__img">
        </a>
-      </div>
+       <a href="product-details" class="trending-images__link">
+         <img src="../img/trending/product-2.jpg" alt="trending-product-2" class="trending__img">
+       </a>
+       <a href="product-details" class="trending-images__link">
+         <img src="../img/trending/product-3.jpg" alt="trending-product-3" class="trending__img">
+       </a>
+     </div>
     </div>
   </div>
 
