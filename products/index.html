@@ -33,12 +33,13 @@
 
   <div class="container">
     <div class="our-products">
-      <ul class="our-products-list">
-        <li class="our-products-list__item">
-          <a href="#" class="our-products-list__link our-products-list__link_active">ALL</a>
+      <div class="our-products-list-wrap">
+        <ul class="our-products-list">
+          <li class="our-products-list__item">
+            <a href="#" class="our-products-list__link our-products-list__link_active">ALL</a>
           </li>
-        <li class="our-products-list__item">
-          <a href="#" class="our-products-list__link">HOME</a>
+          <li class="our-products-list__item">
+            <a href="#" class="our-products-list__link">HOME</a>
           </li><li class="our-products-list__item">
             <a href="#" class="our-products-list__link">OFFICE</a>
           </li><li class="our-products-list__item">
@@ -48,8 +49,9 @@
           </li><li class="our-products-list__item">
             <a href="#" class="our-products-list__link">CLASSIC</a>
           </li>
-          <hr class="our-products__line">
-      </ul>
+        </ul>
+        <hr class="our-products__line">
+    </div>
       <div class="trending-images">
         <a href="../product-details" class="trending-images__link">
         <img src="../img/trending/product-1.jpg" alt="trending-product-1" class="trending__img">
@@ -169,10 +171,12 @@
         <p class="footer__text footer-subscribe__text">
           Suscribe to know about our latest news, products and special offers just for suscribers.
         </p>
-        <label for="email" class="footer-email">
-          <input type="email" name="email" id="email" placeholder="your email address" class="footer-email__input">
+        <div class="footer-email">
+          <label for="email" class="footer-email">
+            <input type="email" name="email" id="email" placeholder="your email address" class="footer-email__input">
+          </label>
           <button aria-label="Подписаться на рассылку" class="footer-email__btn"></button>
-        </label>
+        </div>
       </div>
       <div class="footer-copyright">
         <p class="footer-copyright__text">© Copyright - INTERIOR 2016. All Rights Reserved.</p>

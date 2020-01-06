@@ -360,7 +360,7 @@ body {
 }
 
 .exclusive_bg-img {
-  width: 570px;
+  max-width: 570px;
   height: 570px;
   padding: 184px 31px 0;
   background: url('img/exclusive/product-1-lg.jpg') no-repeat;
@@ -612,10 +612,13 @@ body {
   padding: 68px 98px 135px 98px;
 }
 
+.our-products-list-wrap {
+  position: relative;
+  margin-bottom: 50px;
+}
+
 .our-products-list {
   list-style-type: none;
-  margin-bottom: 50px;
-  position: relative;
 }
 
 .our-products-list__item {
