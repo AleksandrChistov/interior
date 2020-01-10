@@ -1,4 +1,4 @@
-<h2>interior</h2>
+# interior
 HTML, CSS. Валидная, кроссбраузерная верстка.
 
-# Demo:<a href="https://interior-2e9af.web.app/">https://interior-2e9af.web.app/</a>
+<h3>Demo<h3>: <a href="https://interior-2e9af.web.app/">https://interior-2e9af.web.app/</a>
